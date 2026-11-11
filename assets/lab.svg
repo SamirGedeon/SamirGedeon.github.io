@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 650" fill="none">
+  <defs>
+    <linearGradient id="floor" x1="238" y1="250" x2="528" y2="615" gradientUnits="userSpaceOnUse"><stop stop-color="#303138"/><stop offset="1" stop-color="#212227"/></linearGradient>
+    <linearGradient id="desk" x1="232" y1="229" x2="477" y2="512" gradientUnits="userSpaceOnUse"><stop stop-color="#3A3B44"/><stop offset="1" stop-color="#292A31"/></linearGradient>
+    <linearGradient id="frame" x1="184" y1="111" x2="432" y2="418" gradientUnits="userSpaceOnUse"><stop stop-color="#DBCCFF"/><stop offset=".55" stop-color="#B9A1F4"/><stop offset="1" stop-color="#8971BE"/></linearGradient>
+    <linearGradient id="screen" x1="208" y1="151" x2="389" y2="385" gradientUnits="userSpaceOnUse"><stop stop-color="#22282B"/><stop offset="1" stop-color="#15191D"/></linearGradient>
+    <linearGradient id="server" x1="544" y1="251" x2="604" y2="415" gradientUnits="userSpaceOnUse"><stop stop-color="#D6F597"/><stop offset="1" stop-color="#9FBC65"/></linearGradient>
+    <linearGradient id="book" x1="180" y1="439" x2="299" y2="491" gradientUnits="userSpaceOnUse"><stop stop-color="#DDCDFF"/><stop offset="1" stop-color="#A68AD8"/></linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="14"/></filter>
+    <filter id="glow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+  <!-- A compact development desk, drawn from an original isometric grid. -->
+  <ellipse cx="414" cy="561" rx="270" ry="44" fill="#000" opacity=".25" filter="url(#blur)"/>
+  <!-- Chamfered foundation. -->
+  <path d="M51 389Q43 383 53 377L368 195Q382 187 397 196L746 397Q757 404 748 410L449 584Q432 594 414 583Z" fill="#1B1C21"/>
+  <path d="M46 378V397Q46 406 57 413L414 620Q431 630 448 620L750 444Q757 439 757 431V405L433 593Z" fill="#14151A"/>
+  <path d="M433 593V626Q441 626 448 620L750 444Q757 439 757 431V405Z" fill="#292A34"/>
+  <path d="M53 371 368 189Q382 181 397 190L746 391Q761 400 746 409L448 582Q432 591 416 582L53 384Q41 377 53 371Z" fill="url(#floor)" stroke="#8F7EB2" stroke-width="1.4"/>
+  <path d="m68 378 358 197q7 4 14 0l295-171" stroke="#B9A1F4" opacity=".23"/>
+  <!-- Printed circuit paths in the foundation. -->
+  <g stroke="#9193A4" stroke-width="1" opacity=".25">
+    <path d="m92 398 91-53 126 73-45 26 119 69 54-31 89 51"/>
+    <path d="m133 418 65-38 51 29m69 92 42-24 71 41 77-45 82 48"/>
+    <path d="m531 264-63 37 149 86 53-31m-11 72-66 38 41 24"/>
+    <path d="m204 302 53 31m-101 34 52 30m443 16 29 17"/>
+  </g>
+  <g fill="#B9A1F4" opacity=".5"><ellipse cx="92" cy="398" rx="4" ry="2.3"/><ellipse cx="526" cy="533" rx="4" ry="2.3"/><ellipse cx="634" cy="490" rx="4" ry="2.3"/><ellipse cx="531" cy="264" rx="4" ry="2.3"/></g>
+  <!-- Rear legs, prior to tabletop. -->
+  <path d="m176 359 18 10v110l-18-10Z" fill="#777087"/><path d="m194 369 12-7v110l-12 7Z" fill="#3F3B4E"/>
+  <path d="m564 372 18 10v110l-18-10Z" fill="#777087"/><path d="m582 382 12-7v110l-12 7Z" fill="#3F3B4E"/>
+  <!-- Desktop is the central stage. -->
+  <path d="m113 351 250-145q9-5 18 0l272 157q9 5 0 11L403 519q-9 5-18 0L113 362q-9-6 0-11Z" fill="#555060"/>
+  <path d="M109 356v17q0 5 7 9l269 155q9 5 18 0l250-145q7-4 7-10v-15L394 521Z" fill="#202128"/>
+  <path d="m394 521 266-154v15q0 6-7 10L403 537q-4 3-9 3Z" fill="#393641"/>
+  <path d="m113 349 250-145q9-5 18 0l272 157q9 5 0 11L403 517q-9 5-18 0L113 360q-9-6 0-11Z" fill="url(#desk)" stroke="#676170" stroke-width="1.2"/>
+  <path d="m126 354 266 154q3 2 6 0l247-143" stroke="#D5C6F6" opacity=".17"/>
+  <!-- Accessible station link cables; each object belongs to a network. -->
+  <path d="m416 347 41 24q9 5 18 0l44-25q9-5 18 0l36 21" stroke="#0D0F13" stroke-width="6"/>
+  <path d="m416 345 41 24q9 5 18 0l44-25q9-5 18 0l36 21" stroke="#B9A1F4" stroke-width="2"/>
+  <path d="m360 402-28 16q-11 6 0 12l31 18" stroke="#0D0F13" stroke-width="5"/>
+  <path d="m360 400-28 16q-11 6 0 12l31 18" stroke="#8A8D8C" stroke-width="1.5"/>
+  <!-- Monitor shadow and foot. -->
+  <ellipse cx="305" cy="366" rx="91" ry="24" fill="#101216" opacity=".38"/>
+  <path d="m260 357 53-31 66 38-53 31Z" fill="#65577C"/>
+  <path d="m260 352 53-31 66 38-53 31Z" fill="#B9A1F4"/>
+  <path d="m260 352 66 38v5l-66-38Z" fill="#8470A6"/>
+  <path d="m326 390 53-31v5l-53 31Z" fill="#6B5A8A"/>
+  <path d="m297 307 22 13v45l-22-13Z" fill="#A58CCC"/><path d="m319 320 12-7v45l-12 7Z" fill="#645176"/>
+  <!-- Main monitor: thick lavender extrusion, a gently glowing code surface. -->
+  <path d="m188 112 12-7 225 130q7 4 7 12v158q0 6-7 10l-12 7Z" fill="#716083"/>
+  <path d="M185 117q0-9 9-4l218 126q9 5 9 15v157q0 10-9 5L194 290q-9-5-9-15Z" fill="url(#frame)"/>
+  <path d="m197 132 211 122v146L197 278Z" fill="url(#screen)" stroke="#796B90" stroke-width="1"/>
+  <!-- Screen's front plane uses a single transform for clean code lines. -->
+  <g transform="matrix(1 .57735 0 1 208 151)">
+    <path d="M0 0H188V17H0Z" fill="#36303F"/>
+    <circle cx="8" cy="8" r="2.4" fill="#CCB6F4"/><circle cx="17" cy="8" r="2.4" fill="#878493"/><circle cx="26" cy="8" r="2.4" fill="#D4F970"/>
+    <path d="M50 8H107" stroke="#908998" stroke-width="2" stroke-linecap="round"/>
+    <path d="M0 18H29V121H0Z" fill="#1B1E23"/>
+    <g stroke="#5D5C69" stroke-width="1.4" stroke-linecap="round"><path d="M8 30h11m-11 10h8m-8 10h11m-11 10h6m-6 10h11m-11 10h8"/></g>
+    <g stroke-width="3.3" stroke-linecap="round">
+      <path d="M43 30h22m8 0h29" stroke="#BB9DEC"/>
+      <path d="M53 43h40m7 0h39" stroke="#E5E8DD"/>
+      <path d="M53 56h25m7 0h60" stroke="#D4F970"/>
+      <path d="M63 69h16m7 0h31m7 0h38" stroke="#D4F970"/>
+      <path d="M63 82h45m7 0h17" stroke="#9696A0"/>
+      <path d="M53 95h19m7 0h48" stroke="#E5E8DD"/>
+      <path d="M43 108h12" stroke="#BB9DEC"/>
+    </g>
+    <path d="M0 127H188V133H0Z" fill="#B9A1F4" opacity=".8"/>
+  </g>
+  <ellipse cx="303" cy="350" rx="3" ry="3.5" transform="rotate(-30 303 350)" fill="#D4F970"/>
+  <!-- Keyboard, with a coherent isometric key matrix. -->
+  <path d="m272 400 36-21 138 80-36 21Z" fill="#111419"/>
+  <path d="m272 394 36-21 138 80-36 21Z" fill="#C5B3E3"/>
+  <path d="m272 394 138 80v6l-138-80Z" fill="#827294"/><path d="m410 474 36-21v6l-36 21Z" fill="#5B5266"/>
+  <g transform="matrix(.866 .5 -.866 .5 307 382)" fill="#685B7D">
+    <path d="M0 0h10v8h-10Z M14 0h10v8h-10Z M28 0h10v8h-10Z M42 0h10v8h-10Z M56 0h10v8h-10Z M70 0h10v8h-10Z M84 0h10v8h-10Z M98 0h10v8h-10Z M112 0h10v8h-10Z M126 0h10v8h-10Z"/>
+    <path d="M0 12h12v8h-12Z M16 12h10v8h-10Z M30 12h10v8h-10Z M44 12h10v8h-10Z M58 12h10v8h-10Z M72 12h10v8h-10Z M86 12h10v8h-10Z M100 12h10v8h-10Z M114 12h10v8h-10Z M114 12h22v8h-22Z"/>
+    <path d="M0 24h17v8h-17Z M21 24h10v8h-10Z M35 24h10v8h-10Z M49 24h10v8h-10Z M63 24h10v8h-10Z M77 24h10v8h-10Z M91 24h10v8h-10Z M105 24h10v8h-10Z M105 24h31v8h-31Z"/>
+    <path d="M0 36h19v8h-19Z M23 36h18v8h-18Z M45 36h58v8h-58Z M107 36h29v8h-29Z"/>
+    <path d="M126 0h10v8h-10Z" fill="#D4F970"/>
+  </g>
+  <!-- Mouse. -->
+  <path d="M462 409q-15-9-25-3t5 15l13 7q12 7 21 1t-1-13Z" fill="#111419"/>
+  <path d="M461 402q-13-7-22-2t4 14l13 7q12 7 20 1t-2-12Z" fill="#B9A1F4"/>
+  <path d="m449 402 8 5m-3-3 7-4" stroke="#75628F" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Server stack. -->
+  <ellipse cx="568" cy="391" rx="76" ry="22" fill="#111216" opacity=".4"/>
+  <path d="m530 258 50-29 64 37-50 29Z" fill="#E1F4B9"/>
+  <path d="m530 258 64 37v119l-64-37Z" fill="url(#server)"/>
+  <path d="m594 295 50-29v119l-50 29Z" fill="#617347"/>
+  <path d="m535 256 45-26 58 34-45 26Z" fill="#D4F970"/>
+  <path d="m541 276 42 24v27l-42-24Z" fill="#252D25"/>
+  <path d="m541 312 42 24v27l-42-24Z" fill="#252D25"/>
+  <path d="m541 348 42 24v27l-42-24Z" fill="#252D25"/>
+  <g stroke="#6B8054" stroke-width="2"><path d="m546 283 24 14m-24 22 24 14m-24 22 24 14"/></g>
+  <g fill="#D4F970"><ellipse cx="575" cy="308" rx="2.3" ry="3" transform="rotate(-30 575 308)"/><ellipse cx="575" cy="344" rx="2.3" ry="3" transform="rotate(-30 575 344)"/><ellipse cx="575" cy="380" rx="2.3" ry="3" transform="rotate(-30 575 380)"/></g>
+  <g stroke="#879566" stroke-width="2"><path d="m605 305 28-16m-28 24 28-16m-28 25 28-16m-28 25 28-16m-28 25 28-16m-28 25 28-16m-28 25 28-16m-28 25 28-16"/></g>
+  <path d="m561 257 16-9 26 15-16 9Z" fill="#7B9350"/>
+  <path d="m566 256 11-6 19 11-11 6Z" fill="#333F2A"/>
+  <!-- Notebook, facing the visitor on the near side. -->
+  <path d="m173 446 54-31 87 50-54 32Z" fill="#15161C"/>
+  <path d="m173 439 54-31 87 50v8l-54 31-87-50Z" fill="#C2B6C9"/>
+  <path d="m179 441 49-28 80 46v5l-49 29-80-46Z" fill="#ECEBE2"/>
+  <path d="m173 435 54-31 87 50-54 32Z" fill="url(#book)"/>
+  <path d="m181 431 87 50" stroke="#655376" stroke-width="2"/>
+  <g stroke="#F1E9FF" stroke-width="2" stroke-linecap="round"><path d="m229 431 31 18m-39-13 21 12m-30-7 34 20"/></g>
+  <path d="m269 432 11-6 34 20-11 6Z" fill="#D4F970"/><path d="m303 452 11-6 5 6-11 6Z" fill="#89749F"/>
+  <!-- Free-standing data cube and connector. -->
+  <path d="m455 516 27-16 27 16-27 16Z" fill="#DCD0F3"/><path d="m455 516 27 16v31l-27-16Z" fill="#A48ACD"/><path d="m482 532 27-16v31l-27 16Z" fill="#65577E"/>
+  <path d="m466 535 9 5m-9 2 9 5" stroke="#E5DAF4" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="m482 500v-12l25-15" stroke="#B9A1F4" stroke-width="1.5" stroke-dasharray="3 4"/>
+  <!-- A small abstract plant softens the software studio. -->
+  <path d="m121 336 23-13 23 13-23 14Z" fill="#C2BDD0"/><path d="m121 336 23 14v35q-17-4-20-15Z" fill="#85808E"/><path d="m144 350 23-14-3 34q-4 11-20 15Z" fill="#514C60"/>
+  <ellipse cx="144" cy="336" rx="19" ry="10" fill="#24282A"/>
+  <path d="M145 334v-62" stroke="#AABF78" stroke-width="3" stroke-linecap="round"/>
+  <path d="M145 312q-32-4-28-34 28 4 28 34Z" fill="#A4C866"/>
+  <path d="M145 295q1-30 27-39 4 28-27 39Z" fill="#D4F970"/>
+  <path d="M145 278q-20-16-10-39 23 15 10 39Z" fill="#A4C866"/>
+  <!-- Calibration marks and softly lit edge are intentional, not animated. -->
+  <path d="m514 555 37-21" stroke="#D4F970" stroke-width="3" stroke-linecap="round"/>
+  <path d="m514 555 37-21" stroke="#D4F970" stroke-width="6" stroke-linecap="round" opacity=".25" filter="url(#glow)"/>
+  <path d="m93 457 23 13m6 4 6 3m507 16 17-10" stroke="#B9A1F4" stroke-width="2" stroke-linecap="round" opacity=".6"/>
+  <g fill="#B9A1F4"><path d="m455 164 4-8 4 8 8 4-8 4-4 8-4-8-8-4Z"/><circle cx="681" cy="317" r="3"/><circle cx="200" cy="88" r="2"/></g>
+</svg>
