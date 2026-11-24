@@ -838,9 +838,9 @@
     "es": "TIENDA DE MASCOTAS",
     "en": "PET STORE"
   },
-  "Catálogo da Mania de Bicho com navegação por categoria e filtros de acessórios.": {
-    "es": "Catálogo de Mania de Bicho con navegación por categoría y filtros de accesorios.",
-    "en": "Mania de Bicho catalog with category navigation and accessory filters."
+  "Página inicial da Mania de Bicho com um buldogue branco em fundo verde.": {
+    "es": "Página de inicio de Mania de Bicho con un bulldog blanco sobre fondo verde.",
+    "en": "Mania de Bicho home page with a white bulldog against a green background."
   },
   "Protótipo de loja pet com catálogo, filtros, favoritos e sacola salva no navegador. O fluxo permite revisar o pedido antes de abrir o WhatsApp.": {
     "es": "Prototipo de tienda de mascotas con catálogo, filtros, favoritos y carrito guardado en el navegador. Permite revisar el pedido antes de abrir WhatsApp.",
