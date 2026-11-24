@@ -374,9 +374,9 @@ function setupTechScene({ motionAllowed = () => true } = {}) {
     python: { index: '03 / LINGUAGEM', title: 'Python', copy: 'Uso Python no Pathboard para calcular dependências, caminho crítico e impacto de mudanças nas estimativas.', link: '#projeto-pathboard' },
     django: { index: '04 / ESTUDOS', title: 'Django REST', copy: 'Estudo APIs no ecossistema Django. Meu catálogo de jogos usa Django com JsonResponse e cadastro pelo Django Admin.', link: 'https://github.com/SamirGedeon/catalogo-jogos-api' },
     dados: { index: '05 / DADOS', title: 'SQL / MySQL', copy: 'Estudo SQL e MySQL para organizar e consultar dados. No Controle de estoque, a persistência confirmada usa SQL com JDBC e banco H2.', link: '#projeto-estoque' },
-    html: { index: '06 / ESTRUTURA', title: 'HTML', copy: 'Na Hidrolinha, HTML organiza o catálogo de conexões, o esquema e o memorial de cálculo.', link: '#projeto-hidrolinha' },
+    html: { index: '06 / ESTRUTURA', title: 'HTML', copy: 'No Controle de estoque, HTML estrutura o formulário, os indicadores e a tabela de produtos.', link: '#projeto-estoque' },
     css: { index: '07 / INTERFACE', title: 'CSS', copy: 'No Armazém do Pão, a interface combina tipografia, vídeo e layout responsivo com Tailwind CSS.', link: '#projeto-armazem' },
-    javascript: { index: '08 / INTERAÇÃO', title: 'JavaScript', copy: 'Na Hidrolinha, JavaScript atualiza o esquema e o total à medida que os trechos e as conexões são editados.', link: '#projeto-hidrolinha' }
+    javascript: { index: '08 / INTERAÇÃO', title: 'JavaScript', copy: 'No Controle de estoque, JavaScript consulta a API e atualiza a tabela ao buscar ou editar produtos.', link: '#projeto-estoque' }
   };
   // Positions are the actual card centers in the 560×400 local orbit plane.
   const positions = { java: [-182,-94], spring: [-44,-130], python: [111,-108], django: [205,34], dados: [114,158], html: [-28,151], css: [-182,140], javascript: [-235,14] };

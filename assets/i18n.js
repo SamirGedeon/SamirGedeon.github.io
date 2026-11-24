@@ -822,29 +822,29 @@
     "es": "Una página de panadería y café con un vídeo de bienvenida que avanza al desplazar la página, y accesos a sabores y ubicación.",
     "en": "A bakery and café website with a video that follows scrolling, plus links to products and directions."
   },
-  "Ampliar captura de Hidrolinha": {
-    "es": "Ampliar captura de Hidrolinha",
-    "en": "Enlarge Hidrolinha screenshot"
+  "Ampliar captura da Mania de Bicho": {
+    "es": "Ampliar captura de Mania de Bicho",
+    "en": "Enlarge Mania de Bicho screenshot"
   },
-  "Ver código de Hidrolinha no GitHub (nova aba)": {
-    "es": "Ver código de Hidrolinha en GitHub (pestaña nueva)",
-    "en": "View Hidrolinha code on GitHub (new tab)"
+  "Ver código da Mania de Bicho no GitHub (nova aba)": {
+    "es": "Ver código de Mania de Bicho en GitHub (pestaña nueva)",
+    "en": "View Mania de Bicho code on GitHub (new tab)"
   },
-  "Abrir demo de Hidrolinha (nova aba)": {
-    "es": "Abrir demo de Hidrolinha (pestaña nueva)",
-    "en": "Open Hidrolinha demo (new tab)"
+  "Abrir demo da Mania de Bicho (nova aba)": {
+    "es": "Abrir demo de Mania de Bicho (pestaña nueva)",
+    "en": "Open Mania de Bicho demo (new tab)"
   },
-  "CALCULADORA TÉCNICA": {
-    "es": "CALCULADORA TÉCNICA",
-    "en": "TECHNICAL CALCULATOR"
+  "LOJA PET": {
+    "es": "TIENDA DE MASCOTAS",
+    "en": "PET STORE"
   },
-  "Hidrolinha com catálogo de peças, esquema da tubulação e memorial de cálculo.": {
-    "es": "Hidrolinha con catálogo de piezas, diagrama de tubería e informe de cálculo.",
-    "en": "Hidrolinha with a fittings catalog, pipe diagram, and calculation report."
+  "Catálogo da Mania de Bicho com navegação por categoria e filtros de acessórios.": {
+    "es": "Catálogo de Mania de Bicho con navegación por categoría y filtros de accesorios.",
+    "en": "Mania de Bicho catalog with category navigation and accessory filters."
   },
-  "Calcule o comprimento equivalente de tubulações combinando trechos retos e conexões. Veja o esquema e exporte o memorial em PDF.": {
-    "es": "Calcula la longitud equivalente de tuberías combinando tramos rectos y accesorios. Consulta el esquema y exporta el informe en PDF.",
-    "en": "Calculate equivalent pipe length from straight sections and fittings. View the diagram and export a PDF report."
+  "Protótipo de loja pet com catálogo, filtros, favoritos e sacola salva no navegador. O fluxo permite revisar o pedido antes de abrir o WhatsApp.": {
+    "es": "Prototipo de tienda de mascotas con catálogo, filtros, favoritos y carrito guardado en el navegador. Permite revisar el pedido antes de abrir WhatsApp.",
+    "en": "A pet store prototype with a catalog, filters, favorites, and a cart saved in the browser. Review the order before opening WhatsApp."
   },
   "Ampliar captura de RolloutLab": {
     "es": "Ampliar captura de RolloutLab",
@@ -914,17 +914,17 @@
     "es": "Estudio APIs en el ecosistema Django. Mi catálogo de juegos usa Django con JsonResponse y gestión con Django Admin.",
     "en": "I study APIs in the Django ecosystem. My game catalog uses Django with JsonResponse and Django Admin."
   },
-  "Na Hidrolinha, HTML organiza o catálogo de conexões, o esquema e o memorial de cálculo.": {
-    "es": "En Hidrolinha, HTML organiza el catálogo de accesorios, el diagrama y el informe de cálculo.",
-    "en": "In Hidrolinha, HTML structures the fittings catalog, the diagram, and the calculation report."
+  "No Controle de estoque, HTML estrutura o formulário, os indicadores e a tabela de produtos.": {
+    "es": "En Controle de estoque, HTML organiza el formulario, los indicadores y la tabla de productos.",
+    "en": "In Controle de estoque, HTML structures the form, indicators, and product table."
   },
   "No Armazém do Pão, a interface combina tipografia, vídeo e layout responsivo com Tailwind CSS.": {
     "es": "En Armazém do Pão, la interfaz combina tipografía, vídeo y diseño adaptable con Tailwind CSS.",
     "en": "Armazém do Pão combines typography, video, and a responsive layout with Tailwind CSS."
   },
-  "Na Hidrolinha, JavaScript atualiza o esquema e o total à medida que os trechos e as conexões são editados.": {
-    "es": "En Hidrolinha, JavaScript actualiza el diagrama y el total mientras se editan los tramos y accesorios.",
-    "en": "In Hidrolinha, JavaScript updates the diagram and total as sections and fittings change."
+  "No Controle de estoque, JavaScript consulta a API e atualiza a tabela ao buscar ou editar produtos.": {
+    "es": "En Controle de estoque, JavaScript consulta la API y actualiza la tabla al buscar o editar productos.",
+    "en": "In Controle de estoque, JavaScript calls the API and updates the table when you search for or edit products."
   }
 };
   const locales = { pt: 'pt-BR', es: 'es', en: 'en' };
