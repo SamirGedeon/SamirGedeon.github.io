@@ -211,31 +211,29 @@ document.addEventListener('click', event => {
   if (revealed && hash === location.hash) revealed.scrollIntoView({ behavior: reducedMotion() ? 'instant' : 'smooth', block: 'start' });
 });
 
-const previews = {
-  drew: { title: 'Drew Studio', src: 'assets/projects/drew.png', alt: 'Captura real da página inicial do Drew Studio.', repo: 'https://github.com/SamirGedeon/Lading-Page' },
-  estoque: { title: 'Controle de estoque', src: 'assets/projects/estoque.png', alt: 'Captura real do formulário, indicadores e tabela do painel de estoque.', repo: 'https://github.com/SamirGedeon/estoque-spring-api' },
-  fruta: { title: 'Fruta — Vitrine de sabores', src: 'assets/projects/fruta.png', alt: 'Captura real da vitrine Fruta com sabor morango.', repo: 'https://github.com/SamirGedeon/Site-Refri' }
-};
 const dialog = document.querySelector('#project-dialog');
 let previousFocus = null;
 let activePreview = null;
 function renderPreviewLanguage() {
   if (!activePreview) return;
-  document.querySelector('#preview-title').textContent = t(activePreview.title);
-  document.querySelector('#preview-image').alt = t(activePreview.alt);
+  document.querySelector('#preview-title').textContent = activePreview.querySelector('h3').textContent;
+  document.querySelector('#preview-image').alt = activePreview.querySelector('img').getAttribute('alt');
 }
 if (typeof dialog.showModal === 'function') {
   document.querySelectorAll('[data-preview]').forEach(button => {
+    const card = button.closest('.project-card');
+    const thumbnail = card.querySelector('img');
+    const repo = card.querySelector('.project-repo');
     button.hidden = false;
     button.addEventListener('click', () => {
-      const preview = previews[button.dataset.preview];
       previousFocus = button;
-      activePreview = preview;
-      document.querySelector('#preview-title').textContent = t(preview.title);
+      activePreview = card;
       const image = document.querySelector('#preview-image');
-      image.src = preview.src;
-      image.alt = t(preview.alt);
-      document.querySelector('#preview-repo').href = preview.repo;
+      image.src = thumbnail.getAttribute('src');
+      image.setAttribute('width', thumbnail.getAttribute('width'));
+      image.setAttribute('height', thumbnail.getAttribute('height'));
+      renderPreviewLanguage();
+      document.querySelector('#preview-repo').href = repo.href;
       dialog.showModal();
       document.body.classList.add('dialog-open');
       document.querySelector('#close-preview').focus();
@@ -373,12 +371,12 @@ function setupTechScene({ motionAllowed = () => true } = {}) {
   const records = {
     java: { index: '01 / LINGUAGEM', title: 'Java', copy: 'Estudo Java para desenvolver APIs e organizar a lógica das aplicações. O Controle de estoque utiliza Java 17 com Spring Boot.', link: '#projeto-estoque' },
     spring: { index: '02 / BACK-END', title: 'Spring Boot', copy: 'No Controle de estoque, Spring Boot conecta a API de produtos ao painel web, com busca, validações e acesso aos dados via JDBC.', link: '#projeto-estoque' },
-    python: { index: '03 / LINGUAGEM', title: 'Python', copy: 'Uso Python no Catálogo de jogos: uma API com listagem em JSON e filtro dos jogos que estão em andamento.', link: '#projeto-jogos' },
-    django: { index: '04 / ESTUDOS', title: 'Django REST', copy: 'Estudo APIs no ecossistema Django. No Catálogo de jogos, a listagem atual usa Django com JsonResponse e o gerenciamento acontece pelo Django Admin.', link: '#projeto-jogos' },
+    python: { index: '03 / LINGUAGEM', title: 'Python', copy: 'Uso Python no Pathboard para calcular dependências, caminho crítico e impacto de mudanças nas estimativas.', link: '#projeto-pathboard' },
+    django: { index: '04 / ESTUDOS', title: 'Django REST', copy: 'Estudo APIs no ecossistema Django. Meu catálogo de jogos usa Django com JsonResponse e cadastro pelo Django Admin.', link: 'https://github.com/SamirGedeon/catalogo-jogos-api' },
     dados: { index: '05 / DADOS', title: 'SQL / MySQL', copy: 'Estudo SQL e MySQL para organizar e consultar dados. No Controle de estoque, a persistência confirmada usa SQL com JDBC e banco H2.', link: '#projeto-estoque' },
-    html: { index: '06 / ESTRUTURA', title: 'HTML', copy: 'A estrutura das páginas é parte do que desenvolvo nos projetos web. No Drew Studio, ela organiza a apresentação, os serviços e o formulário de briefing.', link: '#projeto-drew' },
-    css: { index: '07 / INTERFACE', title: 'CSS', copy: 'Exploro composição, responsividade e apresentação visual. A vitrine Fruta combina cores, imagens e transições entre três sabores.', link: '#projeto-fruta' },
-    javascript: { index: '08 / INTERAÇÃO', title: 'JavaScript', copy: 'Uso JavaScript para dar função à interface: o carrossel da Fruta responde aos indicadores e ao teclado, e o Drew Studio gera um briefing para download.', link: '#projeto-fruta' }
+    html: { index: '06 / ESTRUTURA', title: 'HTML', copy: 'Na Hidrolinha, HTML organiza o catálogo de conexões, o esquema e o memorial de cálculo.', link: '#projeto-hidrolinha' },
+    css: { index: '07 / INTERFACE', title: 'CSS', copy: 'No Armazém do Pão, a interface combina tipografia, vídeo e layout responsivo com Tailwind CSS.', link: '#projeto-armazem' },
+    javascript: { index: '08 / INTERAÇÃO', title: 'JavaScript', copy: 'Na Hidrolinha, JavaScript atualiza o esquema e o total à medida que os trechos e as conexões são editados.', link: '#projeto-hidrolinha' }
   };
   // Positions are the actual card centers in the 560×400 local orbit plane.
   const positions = { java: [-182,-94], spring: [-44,-130], python: [111,-108], django: [205,34], dados: [114,158], html: [-28,151], css: [-182,140], javascript: [-235,14] };

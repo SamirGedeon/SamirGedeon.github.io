@@ -226,18 +226,6 @@
     "es": "Todos",
     "en": "All"
   },
-  "APIs & dados": {
-    "es": "APIs y datos",
-    "en": "APIs & data"
-  },
-  "Captura real da página inicial do Drew Studio, com apresentação do estúdio e fotografia.": {
-    "es": "Captura real de la página principal de Drew Studio, con la presentación del estudio y una fotografía.",
-    "en": "Real screenshot of Drew Studio's home page, with the studio introduction and a photograph."
-  },
-  "Ampliar captura do Drew Studio": {
-    "es": "Ampliar captura de Drew Studio",
-    "en": "Enlarge Drew Studio screenshot"
-  },
   "Ampliar": {
     "es": "Ampliar",
     "en": "Enlarge"
@@ -250,21 +238,13 @@
     "es": "PROYECTO DE ESTUDIO",
     "en": "STUDY PROJECT"
   },
-  "Ver código do Drew Studio no GitHub (nova aba)": {
-    "es": "Ver código de Drew Studio en GitHub (pestaña nueva)",
-    "en": "View Drew Studio code on GitHub (new tab)"
-  },
   "Um estúdio fictício, uma interface completa. Tema claro e escuro, seleção de serviços e briefing para download.": {
     "es": "Un estudio ficticio, una interfaz completa. Tema claro y oscuro, selección de servicios y un briefing para descargar.",
     "en": "A fictional studio with a complete interface. Light and dark themes, service selection and a downloadable brief."
   },
-  "do Drew Studio (nova aba)": {
-    "es": "de Drew Studio (pestaña nueva)",
-    "en": "for Drew Studio (new tab)"
-  },
   "Captura real do Controle de Estoque: formulário de produto, indicadores e tabela de itens.": {
-    "es": "Captura real de Controle de Estoque: formulario de productos, indicadores y tabla de artículos.",
-    "en": "Real screenshot of Controle de Estoque: product form, indicators and item table."
+    "es": "Captura de Controle de Estoque con formulario de producto, indicadores y tabla de artículos.",
+    "en": "Inventory dashboard with a product form, indicators, and an item table."
   },
   "Ampliar captura do Controle de Estoque": {
     "es": "Ampliar captura de Controle de Estoque",
@@ -279,20 +259,12 @@
     "en": "View Controle de Estoque code on GitHub (new tab)"
   },
   "Produtos, preços e quantidades em um só painel. Busca por nome, validações e persistência com SQL.": {
-    "es": "Productos, precios y cantidades en un solo panel. Búsqueda por nombre, validaciones y persistencia con SQL.",
-    "en": "Products, prices and quantities in one dashboard. Search by name, validation and SQL persistence."
+    "es": "Productos, precios y cantidades en un panel. Búsqueda por nombre, validaciones y persistencia con SQL.",
+    "en": "Products, prices, and quantities in one dashboard. Search by name, validate input, and store data with SQL."
   },
   "do Controle de Estoque (nova aba)": {
     "es": "de Controle de Estoque (pestaña nueva)",
     "en": "for Controle de Estoque (new tab)"
-  },
-  "Captura real da Fruta: vitrine rosa de refrigerantes com lata de morango e navegação entre sabores.": {
-    "es": "Captura real de Fruta: escaparate rosa de refrescos con una lata de fresa y navegación entre sabores.",
-    "en": "Real screenshot of Fruta: a pink soda showcase with a strawberry can and flavor navigation."
-  },
-  "Ampliar captura da Fruta": {
-    "es": "Ampliar captura de Fruta",
-    "en": "Enlarge Fruta screenshot"
   },
   "EXPERIMENTO VISUAL": {
     "es": "EXPERIMENTO VISUAL",
@@ -302,21 +274,9 @@
     "es": "/ Escaparate de sabores",
     "en": "/ Flavor showcase"
   },
-  "Ver código da Fruta no GitHub (nova aba)": {
-    "es": "Ver código de Fruta en GitHub (pestaña nueva)",
-    "en": "View Fruta code on GitHub (new tab)"
-  },
   "Uma vitrine de marca fictícia com três sabores. Carrossel circular, seleção direta e navegação pelo teclado.": {
     "es": "Un escaparate de marca ficticia con tres sabores. Carrusel circular, selección directa y navegación con el teclado.",
     "en": "A fictional brand showcase with three flavors. A circular carousel, direct selection and keyboard navigation."
-  },
-  "da Fruta (nova aba)": {
-    "es": "de Fruta (pestaña nueva)",
-    "en": "for Fruta (new tab)"
-  },
-  "Prévia real do código do Catálogo de Jogos": {
-    "es": "Vista previa real del código de Catálogo de Jogos",
-    "en": "Real code preview from Catálogo de Jogos"
   },
   "Código Python real da função listar jogos": {
     "es": "Código Python real de la función de listar juegos",
@@ -338,17 +298,9 @@
     "es": "API EN PYTHON",
     "en": "PYTHON API"
   },
-  "Ver código do Catálogo de Jogos no GitHub (nova aba)": {
-    "es": "Ver código de Catálogo de Jogos en GitHub (pestaña nueva)",
-    "en": "View Catálogo de Jogos code on GitHub (new tab)"
-  },
   "Jogos organizados com listagem em JSON, filtro do que está em andamento e gerenciamento pelo Django Admin.": {
     "es": "Juegos organizados con una lista en JSON, filtro de partidas en curso y gestión con Django Admin.",
     "en": "Games organized with a JSON list, an in-progress filter and management through Django Admin."
-  },
-  "do Catálogo de Jogos (nova aba)": {
-    "es": "de Catálogo de Jogos (pestaña nueva)",
-    "en": "for Catálogo de Jogos (new tab)"
   },
   "CAPTURAS DOS PRÓPRIOS PROJETOS. CÓDIGO DISPONÍVEL PARA EXPLORAR.": {
     "es": "CAPTURAS DE LOS PROPIOS PROYECTOS. CÓDIGO DISPONIBLE PARA EXPLORAR.",
@@ -714,10 +666,6 @@
     "es": "Cerrar",
     "en": "Close"
   },
-  "Captura real, disponível no repositório do projeto.": {
-    "es": "Captura real, disponible en el repositorio del proyecto.",
-    "en": "Real screenshot, available in the project repository."
-  },
   "Ver código no GitHub ↗": {
     "es": "Ver código en GitHub ↗",
     "en": "View code on GitHub ↗"
@@ -758,49 +706,17 @@
     "es": "espacio de trabajo",
     "en": "workspace"
   },
-  "Captura real da página inicial do Drew Studio.": {
-    "es": "Captura real de la página principal de Drew Studio.",
-    "en": "Real screenshot of Drew Studio's home page."
-  },
   "Captura real do formulário, indicadores e tabela do painel de estoque.": {
     "es": "Captura real del formulario, indicadores y tabla del panel de inventario.",
     "en": "Real screenshot of the form, indicators and table in the inventory dashboard."
-  },
-  "Fruta — Vitrine de sabores": {
-    "es": "Fruta — Escaparate de sabores",
-    "en": "Fruta — Flavor showcase"
-  },
-  "Captura real da vitrine Fruta com sabor morango.": {
-    "es": "Captura real del escaparate Fruta con sabor a fresa.",
-    "en": "Real screenshot of the Fruta showcase with strawberry flavor."
   },
   "No Controle de estoque, Spring Boot conecta a API de produtos ao painel web, com busca, validações e acesso aos dados via JDBC.": {
     "es": "En Controle de estoque, Spring Boot conecta la API de productos al panel web, con búsqueda, validaciones y acceso a datos mediante JDBC.",
     "en": "In Controle de estoque, Spring Boot connects the product API to the web dashboard, with search, validation and data access through JDBC."
   },
-  "Uso Python no Catálogo de jogos: uma API com listagem em JSON e filtro dos jogos que estão em andamento.": {
-    "es": "Uso Python en Catálogo de jogos: una API con listado en JSON y filtro de juegos en curso.",
-    "en": "I use Python in Catálogo de jogos: an API with a JSON list and an in-progress game filter."
-  },
-  "Estudo APIs no ecossistema Django. No Catálogo de jogos, a listagem atual usa Django com JsonResponse e o gerenciamento acontece pelo Django Admin.": {
-    "es": "Estudio APIs en el ecosistema Django. En Catálogo de jogos, el listado actual usa Django con JsonResponse y la gestión se realiza con Django Admin.",
-    "en": "I study APIs in the Django ecosystem. In Catálogo de jogos, the current list uses Django with JsonResponse and management through Django Admin."
-  },
   "Estudo SQL e MySQL para organizar e consultar dados. No Controle de estoque, a persistência confirmada usa SQL com JDBC e banco H2.": {
     "es": "Estudio SQL y MySQL para organizar y consultar datos. En Controle de estoque, la persistencia confirmada usa SQL con JDBC y la base de datos H2.",
     "en": "I study SQL and MySQL to organize and query data. In Controle de estoque, the confirmed persistence uses SQL with JDBC and an H2 database."
-  },
-  "A estrutura das páginas é parte do que desenvolvo nos projetos web. No Drew Studio, ela organiza a apresentação, os serviços e o formulário de briefing.": {
-    "es": "La estructura de las páginas forma parte de mis proyectos web. En Drew Studio, organiza la presentación, los servicios y el formulario de briefing.",
-    "en": "Page structure is part of my web projects. In Drew Studio, it organizes the introduction, services and brief form."
-  },
-  "Exploro composição, responsividade e apresentação visual. A vitrine Fruta combina cores, imagens e transições entre três sabores.": {
-    "es": "Exploro composición, diseño adaptable y presentación visual. El escaparate Fruta combina colores, imágenes y transiciones entre tres sabores.",
-    "en": "I explore composition, responsive design and visual presentation. The Fruta showcase combines colors, images and transitions between three flavors."
-  },
-  "Uso JavaScript para dar função à interface: o carrossel da Fruta responde aos indicadores e ao teclado, e o Drew Studio gera um briefing para download.": {
-    "es": "Uso JavaScript para dar función a la interfaz: el carrusel de Fruta responde a los indicadores y al teclado, y Drew Studio genera un briefing para descargar.",
-    "en": "I use JavaScript to make interfaces work: the Fruta carousel responds to indicators and the keyboard, and Drew Studio creates a downloadable brief."
   },
   "Mudar idioma": {
     "es": "Cambiar idioma",
@@ -857,6 +773,158 @@
   "design": {
     "es": "diseño",
     "en": "design"
+  },
+  "Ampliar captura de Pathboard": {
+    "es": "Ampliar captura de Pathboard",
+    "en": "Enlarge Pathboard screenshot"
+  },
+  "Ver código de Pathboard no GitHub (nova aba)": {
+    "es": "Ver código de Pathboard en GitHub (pestaña nueva)",
+    "en": "View Pathboard code on GitHub (new tab)"
+  },
+  "PLANEJAMENTO DE PROJETOS": {
+    "es": "PLANIFICACIÓN DE PROYECTOS",
+    "en": "PROJECT PLANNING"
+  },
+  "Tela do Pathboard com cronograma, tarefas e simulação de prazo.": {
+    "es": "Pantalla de Pathboard con calendario, tareas y simulación de plazos.",
+    "en": "Pathboard screen with a timeline, tasks, and a schedule simulation."
+  },
+  "Planeje tarefas com dependências, veja o caminho crítico e simule mudanças de prazo antes de alterar o cronograma.": {
+    "es": "Planifica tareas con dependencias, identifica la ruta crítica y simula cambios de plazo antes de modificar el calendario.",
+    "en": "Plan tasks with dependencies, see the critical path, and try new estimates before changing the schedule."
+  },
+  "Ampliar captura de Armazém do Pão": {
+    "es": "Ampliar captura de Armazém do Pão",
+    "en": "Enlarge Armazém do Pão screenshot"
+  },
+  "Ver código de Armazém do Pão no GitHub (nova aba)": {
+    "es": "Ver código de Armazém do Pão en GitHub (pestaña nueva)",
+    "en": "View Armazém do Pão code on GitHub (new tab)"
+  },
+  "Abrir demo de Armazém do Pão (nova aba)": {
+    "es": "Abrir demo de Armazém do Pão (pestaña nueva)",
+    "en": "Open Armazém do Pão demo (new tab)"
+  },
+  "SITE DE PADARIA E CAFÉ": {
+    "es": "SITIO DE PANADERÍA Y CAFÉ",
+    "en": "BAKERY & CAFÉ WEBSITE"
+  },
+  "DEMO PÚBLICA": {
+    "es": "DEMO PÚBLICA",
+    "en": "PUBLIC DEMO"
+  },
+  "Abertura do site Armazém do Pão com café sendo servido em uma xícara.": {
+    "es": "Portada del sitio Armazém do Pão con café servido en una taza.",
+    "en": "Armazém do Pão home page with coffee pouring into a cup."
+  },
+  "Uma apresentação de padaria e café em que o vídeo da abertura acompanha a rolagem, com atalhos para sabores e localização.": {
+    "es": "Una página de panadería y café con un vídeo de bienvenida que avanza al desplazar la página, y accesos a sabores y ubicación.",
+    "en": "A bakery and café website with a video that follows scrolling, plus links to products and directions."
+  },
+  "Ampliar captura de Hidrolinha": {
+    "es": "Ampliar captura de Hidrolinha",
+    "en": "Enlarge Hidrolinha screenshot"
+  },
+  "Ver código de Hidrolinha no GitHub (nova aba)": {
+    "es": "Ver código de Hidrolinha en GitHub (pestaña nueva)",
+    "en": "View Hidrolinha code on GitHub (new tab)"
+  },
+  "Abrir demo de Hidrolinha (nova aba)": {
+    "es": "Abrir demo de Hidrolinha (pestaña nueva)",
+    "en": "Open Hidrolinha demo (new tab)"
+  },
+  "CALCULADORA TÉCNICA": {
+    "es": "CALCULADORA TÉCNICA",
+    "en": "TECHNICAL CALCULATOR"
+  },
+  "Hidrolinha com catálogo de peças, esquema da tubulação e memorial de cálculo.": {
+    "es": "Hidrolinha con catálogo de piezas, diagrama de tubería e informe de cálculo.",
+    "en": "Hidrolinha with a fittings catalog, pipe diagram, and calculation report."
+  },
+  "Calcule o comprimento equivalente de tubulações combinando trechos retos e conexões. Veja o esquema e exporte o memorial em PDF.": {
+    "es": "Calcula la longitud equivalente de tuberías combinando tramos rectos y accesorios. Consulta el esquema y exporta el informe en PDF.",
+    "en": "Calculate equivalent pipe length from straight sections and fittings. View the diagram and export a PDF report."
+  },
+  "Ampliar captura de RolloutLab": {
+    "es": "Ampliar captura de RolloutLab",
+    "en": "Enlarge RolloutLab screenshot"
+  },
+  "Ver código de RolloutLab no GitHub (nova aba)": {
+    "es": "Ver código de RolloutLab en GitHub (pestaña nueva)",
+    "en": "View RolloutLab code on GitHub (new tab)"
+  },
+  "LIBERAÇÃO DE FUNCIONALIDADES": {
+    "es": "LANZAMIENTO DE FUNCIONES",
+    "en": "FEATURE ROLLOUT"
+  },
+  "Tela do RolloutLab com configuração de uma funcionalidade, simulador de público e histórico.": {
+    "es": "Pantalla de RolloutLab con configuración de una función, simulador de público e historial.",
+    "en": "RolloutLab screen with feature settings, an audience simulator, and history."
+  },
+  "Simule a liberação gradual de funcionalidades por percentual ou lista de usuários. Veja a razão de cada decisão e restaure versões anteriores.": {
+    "es": "Simula el lanzamiento gradual de funciones por porcentaje o lista de usuarios. Consulta el motivo de cada decisión y restaura versiones anteriores.",
+    "en": "Simulate a feature rollout by percentage or user list. See why each decision was made and restore earlier versions."
+  },
+  "Ampliar captura de RecallDeck": {
+    "es": "Ampliar captura de RecallDeck",
+    "en": "Enlarge RecallDeck screenshot"
+  },
+  "Ver código de RecallDeck no GitHub (nova aba)": {
+    "es": "Ver código de RecallDeck en GitHub (pestaña nueva)",
+    "en": "View RecallDeck code on GitHub (new tab)"
+  },
+  "ESTUDO COM FLASHCARDS": {
+    "es": "ESTUDIO CON TARJETAS",
+    "en": "FLASHCARD STUDY"
+  },
+  "Sessão de estudo do RecallDeck com um flashcard e três opções de revisão.": {
+    "es": "Sesión de estudio de RecallDeck con una tarjeta y tres opciones de repaso.",
+    "en": "RecallDeck study session with one flashcard and three review options."
+  },
+  "Organize flashcards em coleções. A resposta de cada revisão determina quando a carta volta à fila de estudo.": {
+    "es": "Organiza tarjetas en colecciones. La respuesta de cada repaso determina cuándo vuelve la tarjeta a la cola de estudio.",
+    "en": "Organize flashcards into collections. Each review response sets when the card comes back to the study queue."
+  },
+  "Ampliar captura de Controle de estoque": {
+    "es": "Ampliar captura de Controle de estoque",
+    "en": "Enlarge Controle de estoque screenshot"
+  },
+  "Ver código de Controle de estoque no GitHub (nova aba)": {
+    "es": "Ver código de Controle de estoque en GitHub (pestaña nueva)",
+    "en": "View Controle de estoque code on GitHub (new tab)"
+  },
+  "Sistemas & APIs": {
+    "es": "Sistemas y APIs",
+    "en": "Systems & APIs"
+  },
+  "Ver demo": {
+    "es": "Ver demo",
+    "en": "Live demo"
+  },
+  "Captura da interface do projeto.": {
+    "es": "Captura de la interfaz del proyecto.",
+    "en": "Screenshot of the project interface."
+  },
+  "Uso Python no Pathboard para calcular dependências, caminho crítico e impacto de mudanças nas estimativas.": {
+    "es": "Uso Python en Pathboard para calcular dependencias, ruta crítica e impacto de cambios en las estimaciones.",
+    "en": "I use Python in Pathboard to calculate dependencies, the critical path, and the impact of new estimates."
+  },
+  "Estudo APIs no ecossistema Django. Meu catálogo de jogos usa Django com JsonResponse e cadastro pelo Django Admin.": {
+    "es": "Estudio APIs en el ecosistema Django. Mi catálogo de juegos usa Django con JsonResponse y gestión con Django Admin.",
+    "en": "I study APIs in the Django ecosystem. My game catalog uses Django with JsonResponse and Django Admin."
+  },
+  "Na Hidrolinha, HTML organiza o catálogo de conexões, o esquema e o memorial de cálculo.": {
+    "es": "En Hidrolinha, HTML organiza el catálogo de accesorios, el diagrama y el informe de cálculo.",
+    "en": "In Hidrolinha, HTML structures the fittings catalog, the diagram, and the calculation report."
+  },
+  "No Armazém do Pão, a interface combina tipografia, vídeo e layout responsivo com Tailwind CSS.": {
+    "es": "En Armazém do Pão, la interfaz combina tipografía, vídeo y diseño adaptable con Tailwind CSS.",
+    "en": "Armazém do Pão combines typography, video, and a responsive layout with Tailwind CSS."
+  },
+  "Na Hidrolinha, JavaScript atualiza o esquema e o total à medida que os trechos e as conexões são editados.": {
+    "es": "En Hidrolinha, JavaScript actualiza el diagrama y el total mientras se editan los tramos y accesorios.",
+    "en": "In Hidrolinha, JavaScript updates the diagram and total as sections and fittings change."
   }
 };
   const locales = { pt: 'pt-BR', es: 'es', en: 'en' };

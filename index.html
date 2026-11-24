@@ -22,7 +22,7 @@
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <link rel="preload" href="assets/fonts/archivo.woff2" as="font" type="font/woff2" crossorigin>
   <script src="assets/theme-init.js?v=10"></script>
-  <link rel="stylesheet" href="styles.css?v=10"><script src="assets/fluid-engine.js?v=8" defer></script><script src="assets/i18n.js?v=9" defer></script><script src="app.js?v=10" defer></script>
+  <link rel="stylesheet" href="styles.css?v=12"><script src="assets/fluid-engine.js?v=8" defer></script><script src="assets/i18n.js?v=12" defer></script><script src="app.js?v=12" defer></script>
 </head>
 <body>
 <a class="skip-link" href="#projetos">Pular para os projetos</a>
@@ -96,43 +96,104 @@
       <div class="section-shell">
         <div class="section-kicker"><span class="mono">01 / PROJETOS SELECIONADOS</span><span class="mono">INTERFACES / APIS</span></div>
         <div class="section-heading"><h2 id="projects-title">Ideias que<br>viraram código<span class="green-dot">.</span></h2><div class="section-description"><p>Uma seleção do que venho construindo.<br>Explore a interface. Conheça os bastidores.</p><a class="text-link" href="https://github.com/SamirGedeon?tab=repositories" target="_blank" rel="noopener noreferrer">Todos os repositórios <span aria-hidden="true" class="symbol">↗</span><span class="sr-only"> (abre em nova aba)</span></a></div></div>
-        <div class="project-filters" role="group" aria-label="Filtrar projetos" hidden><button type="button" data-filter="all" aria-pressed="true">Todos <span>04</span></button><button type="button" data-filter="web" aria-pressed="false">Interfaces <span>02</span></button><button type="button" data-filter="api" aria-pressed="false">APIs & dados <span>02</span></button><p class="sr-only" id="filter-status" role="status"></p></div>
+        <div class="project-filters" role="group" aria-label="Filtrar projetos" hidden><button type="button" data-filter="all" aria-pressed="true">Todos <span>06</span></button><button type="button" data-filter="web" aria-pressed="false">Interfaces <span>02</span></button><button type="button" data-filter="api" aria-pressed="false">Sistemas &amp; APIs <span>04</span></button><p class="sr-only" id="filter-status" role="status"></p></div>
         <div class="project-grid">
-          <article class="project-card" data-category="web" id="projeto-drew">
-            <div class="project-image drew-image"><img src="assets/projects/drew.png" alt="Captura real da página inicial do Drew Studio, com apresentação do estúdio e fotografia." width="1200" height="800" loading="lazy"><span class="project-index mono">P.01</span><button class="preview-button" type="button" data-preview="drew" aria-label="Ampliar captura do Drew Studio" hidden>Ampliar <span aria-hidden="true" class="symbol">↗</span></button></div>
-            <div class="project-meta mono"><span>INTERFACE WEB</span><span>PROJETO DE ESTUDO</span></div>
-            <div class="project-title-row"><h3>Drew Studio</h3><a href="https://github.com/SamirGedeon/Lading-Page" target="_blank" rel="noopener noreferrer" aria-label="Ver código do Drew Studio no GitHub (nova aba)"><span aria-hidden="true" class="symbol">↗</span></a></div>
-            <p class="project-summary">Um estúdio fictício, uma interface completa. Tema claro e escuro, seleção de serviços e briefing para download.</p>
-            <div class="project-bottom"><p class="tech-list">HTML <span>·</span> CSS <span>·</span> JavaScript</p><a class="repo-link" href="https://github.com/SamirGedeon/Lading-Page" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true" class="symbol">↗</span><span class="sr-only"> do Drew Studio (nova aba)</span></a></div>
+          <article class="project-card" data-category="api" id="projeto-pathboard">
+            <div class="project-image">
+              <img src="assets/projects/pathboard.webp" alt="Tela do Pathboard com cronograma, tarefas e simulação de prazo." width="1440" height="1345" loading="lazy" decoding="async">
+              <button class="preview-button" type="button" data-preview="pathboard" aria-label="Ampliar captura de Pathboard" hidden>Ampliar <span aria-hidden="true" class="symbol">↗</span></button>
+            </div>
+            <div class="project-meta mono"><span>PLANEJAMENTO DE PROJETOS</span><span>PROJETO DE ESTUDO</span></div>
+            <div class="project-title-row"><h3>Pathboard</h3></div>
+            <p class="project-summary">Planeje tarefas com dependências, veja o caminho crítico e simule mudanças de prazo antes de alterar o cronograma.</p>
+            <div class="project-bottom">
+              <p class="tech-list">Python <span>·</span> FastAPI <span>·</span> Vue 3 <span>·</span> TypeScript <span>·</span> SQLite</p>
+              <div class="project-links">
+                <a class="repo-link project-repo" href="https://github.com/SamirGedeon/pathboard" target="_blank" rel="noopener noreferrer" aria-label="Ver código de Pathboard no GitHub (nova aba)">GitHub <span aria-hidden="true" class="symbol">↗</span></a>
+              </div>
+            </div>
           </article>
 
-          <article class="project-card stagger" data-category="api" id="projeto-estoque">
-            <div class="project-image stock-image"><img src="assets/projects/estoque.png" alt="Captura real do Controle de Estoque: formulário de produto, indicadores e tabela de itens." width="1200" height="800" loading="lazy"><span class="project-index mono">P.02</span><button class="preview-button" type="button" data-preview="estoque" aria-label="Ampliar captura do Controle de Estoque" hidden>Ampliar <span aria-hidden="true" class="symbol">↗</span></button></div>
+          <article class="project-card" data-category="web" id="projeto-armazem">
+            <div class="project-image">
+              <img src="assets/projects/armazem.webp" alt="Abertura do site Armazém do Pão com café sendo servido em uma xícara." width="1440" height="960" loading="lazy" decoding="async">
+              <button class="preview-button" type="button" data-preview="armazem" aria-label="Ampliar captura de Armazém do Pão" hidden>Ampliar <span aria-hidden="true" class="symbol">↗</span></button>
+            </div>
+            <div class="project-meta mono"><span>SITE DE PADARIA E CAFÉ</span><span>DEMO PÚBLICA</span></div>
+            <div class="project-title-row"><h3>Armazém do Pão</h3></div>
+            <p class="project-summary">Uma apresentação de padaria e café em que o vídeo da abertura acompanha a rolagem, com atalhos para sabores e localização.</p>
+            <div class="project-bottom">
+              <p class="tech-list">Next.js <span>·</span> React <span>·</span> TypeScript <span>·</span> Tailwind CSS <span>·</span> GSAP</p>
+              <div class="project-links">
+                <a class="repo-link demo-link" href="https://armazem-do-pao-mp.frbsamir.chatgpt.site/" target="_blank" rel="noopener noreferrer" aria-label="Abrir demo de Armazém do Pão (nova aba)">Ver demo <span aria-hidden="true" class="symbol">↗</span></a>
+                <a class="repo-link project-repo" href="https://github.com/SamirGedeon/armazem-do-pao" target="_blank" rel="noopener noreferrer" aria-label="Ver código de Armazém do Pão no GitHub (nova aba)">GitHub <span aria-hidden="true" class="symbol">↗</span></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="web" id="projeto-hidrolinha">
+            <div class="project-image">
+              <img src="assets/projects/hidrolinha.webp" alt="Hidrolinha com catálogo de peças, esquema da tubulação e memorial de cálculo." width="1440" height="1000" loading="lazy" decoding="async">
+              <button class="preview-button" type="button" data-preview="hidrolinha" aria-label="Ampliar captura de Hidrolinha" hidden>Ampliar <span aria-hidden="true" class="symbol">↗</span></button>
+            </div>
+            <div class="project-meta mono"><span>CALCULADORA TÉCNICA</span><span>DEMO PÚBLICA</span></div>
+            <div class="project-title-row"><h3>Hidrolinha</h3></div>
+            <p class="project-summary">Calcule o comprimento equivalente de tubulações combinando trechos retos e conexões. Veja o esquema e exporte o memorial em PDF.</p>
+            <div class="project-bottom">
+              <p class="tech-list">HTML <span>·</span> CSS <span>·</span> JavaScript <span>·</span> jsPDF</p>
+              <div class="project-links">
+                <a class="repo-link demo-link" href="https://samirgedeon.github.io/hidrolinha/" target="_blank" rel="noopener noreferrer" aria-label="Abrir demo de Hidrolinha (nova aba)">Ver demo <span aria-hidden="true" class="symbol">↗</span></a>
+                <a class="repo-link project-repo" href="https://github.com/SamirGedeon/hidrolinha" target="_blank" rel="noopener noreferrer" aria-label="Ver código de Hidrolinha no GitHub (nova aba)">GitHub <span aria-hidden="true" class="symbol">↗</span></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="api" id="projeto-rolloutlab">
+            <div class="project-image">
+              <img src="assets/projects/rolloutlab.webp" alt="Tela do RolloutLab com configuração de uma funcionalidade, simulador de público e histórico." width="1440" height="1180" loading="lazy" decoding="async">
+              <button class="preview-button" type="button" data-preview="rolloutlab" aria-label="Ampliar captura de RolloutLab" hidden>Ampliar <span aria-hidden="true" class="symbol">↗</span></button>
+            </div>
+            <div class="project-meta mono"><span>LIBERAÇÃO DE FUNCIONALIDADES</span><span>PROJETO DE ESTUDO</span></div>
+            <div class="project-title-row"><h3>RolloutLab</h3></div>
+            <p class="project-summary">Simule a liberação gradual de funcionalidades por percentual ou lista de usuários. Veja a razão de cada decisão e restaure versões anteriores.</p>
+            <div class="project-bottom">
+              <p class="tech-list">Go <span>·</span> Svelte 5 <span>·</span> TypeScript <span>·</span> SQLite</p>
+              <div class="project-links">
+                <a class="repo-link project-repo" href="https://github.com/SamirGedeon/rolloutlab" target="_blank" rel="noopener noreferrer" aria-label="Ver código de RolloutLab no GitHub (nova aba)">GitHub <span aria-hidden="true" class="symbol">↗</span></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="api" id="projeto-recalldeck">
+            <div class="project-image">
+              <img src="assets/projects/recalldeck.webp" alt="Sessão de estudo do RecallDeck com um flashcard e três opções de revisão." width="1440" height="1044" loading="lazy" decoding="async">
+              <button class="preview-button" type="button" data-preview="recalldeck" aria-label="Ampliar captura de RecallDeck" hidden>Ampliar <span aria-hidden="true" class="symbol">↗</span></button>
+            </div>
+            <div class="project-meta mono"><span>ESTUDO COM FLASHCARDS</span><span>PROJETO DE ESTUDO</span></div>
+            <div class="project-title-row"><h3>RecallDeck</h3></div>
+            <p class="project-summary">Organize flashcards em coleções. A resposta de cada revisão determina quando a carta volta à fila de estudo.</p>
+            <div class="project-bottom">
+              <p class="tech-list">Angular <span>·</span> NestJS <span>·</span> TypeScript <span>·</span> SQLite</p>
+              <div class="project-links">
+                <a class="repo-link project-repo" href="https://github.com/SamirGedeon/recalldeck" target="_blank" rel="noopener noreferrer" aria-label="Ver código de RecallDeck no GitHub (nova aba)">GitHub <span aria-hidden="true" class="symbol">↗</span></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="api" id="projeto-estoque">
+            <div class="project-image">
+              <img src="assets/projects/estoque.png" alt="Captura real do Controle de Estoque: formulário de produto, indicadores e tabela de itens." width="1200" height="800" loading="lazy" decoding="async">
+              <button class="preview-button" type="button" data-preview="estoque" aria-label="Ampliar captura de Controle de estoque" hidden>Ampliar <span aria-hidden="true" class="symbol">↗</span></button>
+            </div>
             <div class="project-meta mono"><span>PAINEL WEB + API</span><span>PROJETO DE ESTUDO</span></div>
-            <div class="project-title-row"><h3>Controle de estoque</h3><a href="https://github.com/SamirGedeon/estoque-spring-api" target="_blank" rel="noopener noreferrer" aria-label="Ver código do Controle de Estoque no GitHub (nova aba)"><span aria-hidden="true" class="symbol">↗</span></a></div>
+            <div class="project-title-row"><h3>Controle de estoque</h3></div>
             <p class="project-summary">Produtos, preços e quantidades em um só painel. Busca por nome, validações e persistência com SQL.</p>
-            <div class="project-bottom"><p class="tech-list">Java 17 <span>·</span> Spring Boot <span>·</span> JDBC <span>·</span> H2</p><a class="repo-link" href="https://github.com/SamirGedeon/estoque-spring-api" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true" class="symbol">↗</span><span class="sr-only"> do Controle de Estoque (nova aba)</span></a></div>
-          </article>
-
-          <article class="project-card" data-category="web" id="projeto-fruta">
-            <div class="project-image fruta-image"><img src="assets/projects/fruta.png" alt="Captura real da Fruta: vitrine rosa de refrigerantes com lata de morango e navegação entre sabores." width="1200" height="800" loading="lazy"><span class="project-index mono">P.03</span><button class="preview-button" type="button" data-preview="fruta" aria-label="Ampliar captura da Fruta" hidden>Ampliar <span aria-hidden="true" class="symbol">↗</span></button></div>
-            <div class="project-meta mono"><span>EXPERIMENTO VISUAL</span><span>PROJETO DE ESTUDO</span></div>
-            <div class="project-title-row"><h3>Fruta<span class="project-subtitle"> / Vitrine de sabores</span></h3><a href="https://github.com/SamirGedeon/Site-Refri" target="_blank" rel="noopener noreferrer" aria-label="Ver código da Fruta no GitHub (nova aba)"><span aria-hidden="true" class="symbol">↗</span></a></div>
-            <p class="project-summary">Uma vitrine de marca fictícia com três sabores. Carrossel circular, seleção direta e navegação pelo teclado.</p>
-            <div class="project-bottom"><p class="tech-list">HTML <span>·</span> CSS <span>·</span> JavaScript</p><a class="repo-link" href="https://github.com/SamirGedeon/Site-Refri" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true" class="symbol">↗</span><span class="sr-only"> da Fruta (nova aba)</span></a></div>
-          </article>
-
-          <article class="project-card stagger" data-category="api" id="projeto-jogos">
-            <div class="code-preview" aria-label="Prévia real do código do Catálogo de Jogos"><div class="code-title mono"><span><i></i><i></i><i></i></span> jogos / views.py <span>PY</span></div><pre tabindex="0" aria-label="Código Python real da função listar jogos"><code><span class="code-purple">from</span> django.http <span class="code-purple">import</span> JsonResponse
-<span class="code-purple">from</span> .models <span class="code-purple">import</span> Jogo
-
-<span class="code-purple">def</span> <span class="code-green">listar_jogos</span>(request):
-    jogos = Jogo.objects.all().values()
-    <span class="code-purple">return</span> JsonResponse(list(jogos), safe=<span class="code-green">False</span>)</code></pre><div class="code-caption mono"><span>PRÉVIA DO CÓDIGO REAL</span><a href="https://github.com/SamirGedeon/catalogo-jogos-api/blob/0ead8f1af7506e08070fbebb15861f66e7fdd6b9/jogos/views.py" target="_blank" rel="noopener noreferrer">Ver arquivo <span aria-hidden="true" class="symbol">↗</span><span class="sr-only"> (nova aba)</span></a></div></div>
-            <div class="project-meta mono"><span>API EM PYTHON</span><span>PROJETO DE ESTUDO</span></div>
-            <div class="project-title-row"><h3>Catálogo de jogos</h3><a href="https://github.com/SamirGedeon/catalogo-jogos-api" target="_blank" rel="noopener noreferrer" aria-label="Ver código do Catálogo de Jogos no GitHub (nova aba)"><span aria-hidden="true" class="symbol">↗</span></a></div>
-            <p class="project-summary">Jogos organizados com listagem em JSON, filtro do que está em andamento e gerenciamento pelo Django Admin.</p>
-            <div class="project-bottom"><p class="tech-list">Python <span>·</span> Django <span>·</span> SQLite</p><a class="repo-link" href="https://github.com/SamirGedeon/catalogo-jogos-api" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true" class="symbol">↗</span><span class="sr-only"> do Catálogo de Jogos (nova aba)</span></a></div>
+            <div class="project-bottom">
+              <p class="tech-list">Java 17 <span>·</span> Spring Boot <span>·</span> JDBC <span>·</span> H2</p>
+              <div class="project-links">
+                <a class="repo-link project-repo" href="https://github.com/SamirGedeon/estoque-spring-api" target="_blank" rel="noopener noreferrer" aria-label="Ver código de Controle de estoque no GitHub (nova aba)">GitHub <span aria-hidden="true" class="symbol">↗</span></a>
+              </div>
+            </div>
           </article>
         </div>
         <p class="projects-note mono">CAPTURAS DOS PRÓPRIOS PROJETOS. CÓDIGO DISPONÍVEL PARA EXPLORAR.</p>
@@ -152,7 +213,7 @@
       <div class="editor-content"><div class="editor-empty" id="editor-empty" hidden><svg class="editor-empty-mark" viewBox="0 0 80 80" aria-hidden="true"><path d="m24 24-17 16 17 16m32-32 17 16-17 16M48 13 32 67"/></svg><h3>Nenhum arquivo aberto</h3><p>Escolha um arquivo para continuar explorando.</p><div class="editor-empty-files"><a href="#panel-sobre" data-open-file="sobre"><img class="file-icon md-icon" src="assets/icons/markdown.svg" width="20" height="20" alt="" aria-hidden="true"><span>sobre.md</span></a><a href="#panel-estudos" data-open-file="estudos"><img class="file-icon json-icon" src="assets/icons/json.svg" width="20" height="20" alt="" aria-hidden="true"><span>estudos.json</span></a><a href="#panel-projetos" data-open-file="projetos"><img class="file-icon js-icon" src="assets/icons/javascript.svg" width="20" height="20" alt="" aria-hidden="true"><span>projetos.js</span></a></div></div><span class="sr-only" id="editor-announcement" aria-live="polite"></span>
         <section class="editor-panel editor-markdown" id="panel-sobre" aria-labelledby="tab-sobre" tabindex="0"><h3 class="editor-filename"># sobre.md <span>VISUALIZAÇÃO</span></h3><div class="readme-intro"><span class="readme-symbol" aria-hidden="true">&lt;/&gt;</span><h4>Samir Gedeon Machado</h4><p>Estudante de Engenharia de Software</p></div><div class="editor-skill-badges" aria-label="Tecnologias que estudo"><span class="badge-java">Java</span><span class="badge-spring">Spring Boot</span><span class="badge-python">Python</span><span class="badge-web">JavaScript</span><span class="badge-sql">SQL</span></div><h5 class="readme-subheading">Sobre</h5><p>Gosto de entender o que acontece entre a interface e os bastidores. Desenvolvo projetos web e APIs enquanto aprofundo meus estudos em software.</p><dl class="readme-facts"><div><dt>Formação</dt><dd>Engenharia de Software · Universidade de Vassouras<br>Conclusão prevista em 2027</dd></div><div><dt>Experiência</dt><dd>Estágio na área de TI da Prefeitura de Miguel Pereira</dd></div><div><dt>Próximos passos</dt><dd>Oportunidades júnior e projetos freelance</dd></div><div><dt>Idiomas</dt><dd>Português · Inglês básico</dd></div></dl><p class="editor-comment readme-footer">// Cada projeto é uma oportunidade de aprender.</p></section>
         <section class="editor-panel" id="panel-estudos" aria-labelledby="tab-estudos" tabindex="0"><h3 class="editor-filename">// estudos.json</h3><pre class="editor-code"><code><span class="code-line">{</span><span class="code-line">  <span class="syntax-key">"em_estudo"</span>: {</span><span class="code-line">    <span class="syntax-key">"backend"</span>: [</span><span class="code-line">      <span class="syntax-string">"Java"</span>,</span><span class="code-line">      <span class="syntax-string">"Spring Boot"</span>,</span><span class="code-line">      <span class="syntax-string">"Python"</span>,</span><span class="code-line">      <span class="syntax-string">"Django REST"</span></span><span class="code-line">    ],</span><span class="code-line">    <span class="syntax-key">"frontend"</span>: [</span><span class="code-line">      <span class="syntax-string">"HTML", "CSS", "JavaScript"</span></span><span class="code-line">    ],</span><span class="code-line">    <span class="syntax-key">"dados"</span>: [</span><span class="code-line">      <span class="syntax-string">"SQL", "MySQL"</span></span><span class="code-line">    ]</span><span class="code-line">  },</span><span class="code-line">  <span class="syntax-key">"idiomas"</span>: {</span><span class="code-line">    <span class="syntax-key">"ingles"</span>: <span class="syntax-string" data-translate-code>"básico"</span></span><span class="code-line">  }</span><span class="code-line">}</span></code></pre><p class="editor-comment">// Tecnologias que venho estudando.</p></section>
-        <section class="editor-panel" id="panel-projetos" aria-labelledby="tab-projetos" tabindex="0"><h3 class="editor-filename">// projetos.js</h3><pre class="editor-code"><code><span class="code-line"><span class="syntax-key">const</span> projetos = [</span><span class="code-line">  {</span><span class="code-line">    nome: <span class="syntax-string">"Drew Studio"</span>,</span><span class="code-line">    area: <span class="syntax-string" data-translate-code>"interface web"</span></span><span class="code-line">  },</span><span class="code-line">  {</span><span class="code-line">    nome: <span class="syntax-string">"Controle de estoque"</span>,</span><span class="code-line">    area: <span class="syntax-string" data-translate-code>"painel + API"</span></span><span class="code-line">  },</span><span class="code-line">  {</span><span class="code-line">    nome: <span class="syntax-string">"Fruta"</span>,</span><span class="code-line">    area: <span class="syntax-string" data-translate-code>"experimento visual"</span></span><span class="code-line">  },</span><span class="code-line">  {</span><span class="code-line">    nome: <span class="syntax-string">"Catálogo de jogos"</span>,</span><span class="code-line">    area: <span class="syntax-string" data-translate-code>"API em Python"</span></span><span class="code-line">  }</span><span class="code-line">];</span></code></pre><a class="editor-link" href="#projetos">Explorar os projetos <span class="symbol" aria-hidden="true">↗</span></a></section>
+        <section class="editor-panel" id="panel-projetos" aria-labelledby="tab-projetos" tabindex="0"><h3 class="editor-filename">// projetos.js</h3><pre class="editor-code"><code><span class="code-line"><span class="syntax-key">const</span> projetos = [</span><span class="code-line">  <span class="syntax-string">"Pathboard"</span>,</span><span class="code-line">  <span class="syntax-string">"Armazém do Pão"</span>,</span><span class="code-line">  <span class="syntax-string">"Hidrolinha"</span>,</span><span class="code-line">  <span class="syntax-string">"RolloutLab"</span>,</span><span class="code-line">  <span class="syntax-string">"RecallDeck"</span>,</span><span class="code-line">  <span class="syntax-string">"Controle de estoque"</span>,</span><span class="code-line">];</span></code></pre><a class="editor-link" href="#projetos">Explorar os projetos <span class="symbol" aria-hidden="true">↗</span></a></section>
       </div>
     </div>
   </div>
@@ -196,6 +257,6 @@
 
 <section class="contact" id="contato" aria-labelledby="contact-title"><canvas class="ink-canvas" id="ink-canvas" aria-hidden="true" hidden></canvas><div class="section-shell contact-inner"><div class="section-kicker"><span class="mono">04 / VAMOS CONVERSAR</span><span class="mono">UMA IDEIA PUXA OUTRA</span></div><p class="contact-eyebrow">TEM UM PROJETO OU UMA OPORTUNIDADE?</p><div class="contact-main"><h2 id="contact-title">Tudo começa<br>com um olá<span class="green-dot">.</span></h2><a class="contact-arrow" href="mailto:samirgd173@gmail.com" aria-label="Enviar e-mail para Samir"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div><div class="contact-bottom"><p>Aberto a oportunidades júnior,<br>projetos freelance e novas conexões.</p><div><a href="mailto:samirgd173@gmail.com">samirgd173@gmail.com <span aria-hidden="true" class="symbol">↗</span></a><a href="https://github.com/SamirGedeon" target="_blank" rel="noopener noreferrer">github.com/SamirGedeon <span aria-hidden="true" class="symbol">↗</span><span class="sr-only"> (nova aba)</span></a></div></div><p class="ink-hint mono" hidden>MOVA O PONTEIRO. DEIXE UMA IDEIA NO AR.</p></div></section>
 </main>
-<footer class="site-footer section-shell"><a class="wordmark" href="#inicio" aria-label="Voltar ao início">sg<span class="symbol">↗</span></a><p>Samir Gedeon Machado · Feito para continuar evoluindo.</p><a class="source-download" href="assets/portfolio-samir.zip?v=10" download="Portfolio-Samir-Gedeon-Machado.zip">Baixar projeto (.zip)</a><button id="motion-toggle" type="button" hidden><span id="motion-label">Reduzir movimento</span></button><a href="#inicio">Voltar ao topo ↑</a></footer>
-  <dialog id="project-dialog" aria-labelledby="preview-title"><div class="dialog-top"><h2 id="preview-title">Prévia do projeto</h2><button type="button" id="close-preview" aria-label="Fechar prévia">Fechar <span aria-hidden="true">×</span></button></div><img id="preview-image" width="1200" height="800" alt=""><div class="dialog-bottom"><p>Captura real, disponível no repositório do projeto.</p><a id="preview-repo" href="https://github.com/SamirGedeon" target="_blank" rel="noopener noreferrer">Ver código no GitHub ↗<span class="sr-only"> (nova aba)</span></a></div></dialog>
+<footer class="site-footer section-shell"><a class="wordmark" href="#inicio" aria-label="Voltar ao início">sg<span class="symbol">↗</span></a><p>Samir Gedeon Machado · Feito para continuar evoluindo.</p><a class="source-download" href="assets/portfolio-samir.zip?v=12" download="Portfolio-Samir-Gedeon-Machado.zip">Baixar projeto (.zip)</a><button id="motion-toggle" type="button" hidden><span id="motion-label">Reduzir movimento</span></button><a href="#inicio">Voltar ao topo ↑</a></footer>
+  <dialog id="project-dialog" aria-labelledby="preview-title"><div class="dialog-top"><h2 id="preview-title">Prévia do projeto</h2><button type="button" id="close-preview" aria-label="Fechar prévia">Fechar <span aria-hidden="true">×</span></button></div><img id="preview-image" width="1200" height="800" alt=""><div class="dialog-bottom"><p>Captura da interface do projeto.</p><a id="preview-repo" href="https://github.com/SamirGedeon" target="_blank" rel="noopener noreferrer">Ver código no GitHub ↗<span class="sr-only"> (nova aba)</span></a></div></dialog>
 </body></html>
